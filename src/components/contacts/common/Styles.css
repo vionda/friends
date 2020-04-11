@@ -1,0 +1,23 @@
+.navbar {
+  padding: 40px 0 40px 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+.navbar:hover {
+  background-color: #fbe8a6;
+  cursor: pointer;
+}
+.bottom {
+  position: relative;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.bottom:hover {
+  background-color: #fbe8a6;
+  cursor: pointer;
+}

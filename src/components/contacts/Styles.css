@@ -1,0 +1,54 @@
+@import "./common/Styles.css";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+  max-height: 300px;
+  border-radius: 15px;
+  border: 1px solid #aaaaaa;
+}
+#name {
+  font-style: italic;
+  text-align: center;
+}
+.contact-card {
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px 20px 0 85px;
+}
+.contact-card img:hover {
+  cursor: pointer;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container.day {
+  background-color: #f3eaaa;
+}
+
+.container.night {
+  background-color: #8e8888;
+}
+
+h1 {
+  text-align: left;
+}
+.desc {
+  width: 300px;
+  font-style: italic;
+  text-align: center;
+  align-items: center;
+}
+.home {
+  text-align: center;
+  background-color: #d3f5947c;
+  display: flex;
+  flex-direction: column;
+}
+.home h1 {
+  text-align: center;
+}
