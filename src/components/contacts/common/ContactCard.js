@@ -13,24 +13,25 @@ class ContactCard extends React.Component {
       this.audioRef.current.pause();
     }
   };
-
   render() {
     return (
-      <article>
-        <div className="contact-card">
-          <img
-            src={this.props.contact.imgUrl}
-            alt=""
-            onClick={this.handleImgClick}
-          />
-          <h3 id="name">{this.props.contact.name}</h3>
-          <h4 class="desc">{this.props.description}</h4>
-          <p>Email: {this.props.contact.email}</p>
-          <p>Phone: {this.props.contact.phone}</p>
-          <audio src={this.props.url} controls ref={this.audioRef} />
-          <hr></hr>
-        </div>
-      </article>
+      <div>
+        <article>
+          <div className="contact-card">
+            <img
+              src={this.props.contact.imgUrl}
+              alt=""
+              onClick={this.handleImgClick}
+            />
+            <h3 id="name">{this.props.contact.name}</h3>
+            <h4 class="desc">{this.props.description}</h4>
+            <p>Email: {this.props.contact.email}</p>
+            <p>Phone: {this.props.contact.phone}</p>
+            <audio src={this.props.url} controls ref={this.audioRef} />
+            <hr></hr>
+          </div>
+        </article>
+      </div>
     );
   }
 }

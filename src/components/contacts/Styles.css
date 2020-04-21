@@ -52,3 +52,14 @@ h1 {
 .home h1 {
   text-align: center;
 }
+.form-style {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 510px;
+  padding-bottom: 30px;
+}
+#submit-btn {
+  width: 58px;
+}

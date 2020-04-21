@@ -11,7 +11,7 @@ class About extends React.Component {
             contact={{
               name: "Vionda Salihi",
               imgUrl:
-                "https://scontent.fprn4-1.fna.fbcdn.net/v/t1.0-9/78926905_2556134694465881_5973460469694857216_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=qg2ckJcUGRAAX_AodTb&_nc_ht=scontent.fprn4-1.fna&oh=2e609afcd25801bf959384e2c36dc44f&oe=5E9BB47B",
+                "https://avatars2.githubusercontent.com/u/44646691?s=400&u=8ad2ad9c8a79bdb01f888b5200657ed91ed725f1&v=4",
               phone: "044-251-776",
               email: "viondasalihu@gmail.com",
             }}
