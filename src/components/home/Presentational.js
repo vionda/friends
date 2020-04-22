@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function MainPage() {
   return (
-    <div>
+    <div className="about-style">
       <ul>
         <li>
           <Link to="/contacts">Contacts </Link>
