@@ -116,9 +116,6 @@ class Apps extends React.Component {
             )}
           </p>
           <form className="form-style" onSubmit={this.handleSubmit}>
-            <h4>
-              <i>Want to be loved?</i>
-            </h4>
             <p>Upload your picture!</p>
             <input
               type="file"
