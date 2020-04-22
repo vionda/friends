@@ -24,6 +24,7 @@ class Apps extends React.Component {
   };
   handleSubmit = (event) => {
     this.setState({ didSubmit: true });
+    event.preventDefault();
   };
 
   render() {
