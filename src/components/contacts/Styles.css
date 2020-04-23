@@ -12,7 +12,6 @@ img {
 }
 #name {
   font-style: italic;
-  text-align: center;
 }
 .contact-card {
   font-family: "Courier New", Courier, monospace;
@@ -42,24 +41,4 @@ h1 {
   font-style: italic;
   text-align: center;
   align-items: center;
-}
-.home {
-  text-align: center;
-  background-color: #d3f5947c;
-  display: flex;
-  flex-direction: column;
-}
-.home h1 {
-  text-align: center;
-}
-.form-style {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 510px;
-  padding-bottom: 30px;
-}
-#submit-btn {
-  width: 58px;
 }
