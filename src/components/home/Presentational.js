@@ -11,7 +11,11 @@ function MainPage() {
         <li>
           <Link to="/about">About</Link>
         </li>
+        <li>
+          <Link to="/movies">Movies</Link>
+        </li>
       </ul>
+      <p>"Quality is not an act, it is a habit." -Aristotle</p>
     </div>
   );
 }
